@@ -99,7 +99,7 @@ h2::after {
 }
 
 .service-box:hover > i, .service-box:hover > h3 {
-  color: rgb(145, 145, 10);
+  color: #0b7b9e;
 }
 
 .service-box i, .service-box h3 {
@@ -127,7 +127,6 @@ h2::after {
 
 #apply-content {
   background-color: #0c0c0C;
-
 }
 
 #apply-content h4, #apply-content p{
@@ -136,4 +135,14 @@ h2::after {
 
 #apply-content h4 {
   margin-top: 10%;
+}
+
+#apply-content a {
+  transition-duration: 0.4s;
+  background-color: black;
+}
+
+#apply-content a:hover {
+  background-color: #0b7b9e;
+  color: white;
 }
