@@ -6,7 +6,7 @@
     easing: 'easeInOut',
     duration: 1400,
     text: {
-      autoStyleContainer: false
+      autoStyleContainer: true
     },
     from: { color: '#aaa', width: 1 },
     to: { color: '#333', width: 4 },
@@ -36,7 +36,7 @@
     easing: 'easeInOut',
     duration: 1400,
     text: {
-      autoStyleContainer: false
+      autoStyleContainer: true
     },
     from: { color: '#aaa', width: 1 },
     to: { color: '#333', width: 4 },
@@ -67,7 +67,7 @@
     easing: 'easeInOut',
     duration: 1400,
     text: {
-      autoStyleContainer: false
+      autoStyleContainer: true
     },
     from: { color: '#aaa', width: 1 },
     to: { color: '#333', width: 4 },
@@ -99,7 +99,7 @@
     easing: 'easeInOut',
     duration: 1400,
     text: {
-      autoStyleContainer: false
+      autoStyleContainer: true
     },
     from: { color: '#aaa', width: 1 },
     to: { color: '#333', width: 4 },
@@ -122,7 +122,6 @@
   containerB.animate(1.0); 
   containerC.animate(1.0);
   containerD.animate(1.0);
-
 
   // Parallax
   $('#data-area').parallax({imageSrc: 'img/cidadeparallax.png'})
