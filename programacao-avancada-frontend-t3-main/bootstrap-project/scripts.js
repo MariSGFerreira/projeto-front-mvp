@@ -118,6 +118,9 @@
     }
   });
 
+  containerD.text.style.fontFamily = '"Raleway", Helvetica, sans-serif,';
+  containerD.text.style.fontSize = '2rem';
+
   containerA.animate(1.0);
   containerB.animate(1.0); 
   containerC.animate(1.0);
