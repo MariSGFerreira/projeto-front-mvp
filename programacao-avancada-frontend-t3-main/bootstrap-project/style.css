@@ -105,10 +105,20 @@ h2::after {
 .service-box i, .service-box h3 {
  transition: 2s;
 }
+/* Dados */
+#data-area p {
+  font-size: 20px ;
+  color:#f2f3f4 ;
+}
+
+.circle-box {
+  position: relative;
+}
 
 /* Time */
 #team-area{
   margin-bottom: 65px;
+  margin-top: 100px;
 }
 
 /* Trabalhe Conosco */
@@ -145,4 +155,5 @@ h2::after {
 #apply-content a:hover {
   background-color: #0b7b9e;
   color: white;
+  
 }
