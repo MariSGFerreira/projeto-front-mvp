@@ -124,9 +124,7 @@
   containerD.animate(1.0);
 
 
-
   // Parallax
   $('#data-area').parallax({imageSrc: 'img/cidadeparallax.png'})
-  $('#apply-content').parallax({imageSrc: 'img/pattern.png'})
   $('#apply-content').parallax({imageSrc: 'img/pattern.png'})
 
