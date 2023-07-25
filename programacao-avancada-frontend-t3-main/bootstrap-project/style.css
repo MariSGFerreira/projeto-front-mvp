@@ -164,3 +164,32 @@ h2::after {
   color: white;
   
 }
+
+/* Projeto */
+#project-area{
+  margin-bottom: 30px;
+}
+
+#filter-btn-box{
+  margin-bottom: 50px;
+  text-align: center;
+}
+
+#project-area #filter-btn-box .filter-btn {
+    color: #000000;
+    border: 5px solid #000000;
+    background-color: transparent;
+    text-transform: none;
+    margin: 0 15px;
+    min-width: 100px;
+    width: auto;
+    height: 40px;
+    line-height: 40px;
+    padding: 0 20px;
+}
+
+#project-area #filter-btn-box .filter-btn.active, #project-area #filter-btn-box .filter-btn:hover {
+    color: #101010;
+    background-color: #000000;
+    border-color: #000000;
+}
