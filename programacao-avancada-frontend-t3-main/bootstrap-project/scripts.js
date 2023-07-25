@@ -21,7 +21,6 @@
       } else {
         circle.setText(value);
       }
-  
     }
   });
   containerA.text.style.fontFamily = '"Raleway", Helvetica, sans-serif,';

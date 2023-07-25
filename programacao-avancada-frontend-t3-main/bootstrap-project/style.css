@@ -117,6 +117,20 @@ h2::after {
   margin-top: 100px;
 }
 
+.card {
+  perspective: 1000px;
+  transition: transform 0.5s;
+}
+
+.card:hover {
+  transform: rotateY(180deg);
+}
+
+/* Remove backface-visibility to prevent flipping of card-title */
+.card-body {
+  backface-visibility: hidden; 
+}
+
 /* Trabalhe Conosco */
 #apply-area {
   height: 500px;
