@@ -34,6 +34,35 @@ li {
   font-size: 14px;
 }
 
+/*  Header */
+#nav-container{
+  padding: 0%;
+}
+ 
+.header img{
+  width: 60px;
+}
+
+
+/* Slideshow */
+#carousel-area .carousel-inner, #carousel-area .carousel-item {
+  height: 90vh;
+  margin-top: 4px;
+}
+
+#carousel-area .carousel-caption{
+  top: 35%;
+}
+
+#carousel-area p {
+  color: white;
+  font-size: large;
+}
+
+#carousel-area .carousel-inner h5 {
+  font-size: 60px;
+}
+
 /* Sobre */
 #about-area {
   background-color: #dededa;
@@ -47,6 +76,7 @@ li {
 }
 
 /* pseudo-element da barra após o título */
+
 h2::after {
   content: '';
   width: 200px;
@@ -57,6 +87,7 @@ h2::after {
   margin-top: 15px;
 
 }
+
 
 .title-uppercase {
   color: #0c0c0C;
@@ -117,23 +148,10 @@ h2::after {
   margin-top: 100px;
 }
 
-.card {
-  perspective: 1000px;
-  transition: transform 0.5s;
-}
-
-.card:hover {
-  transform: rotateY(180deg);
-}
-
-/* Remove backface-visibility to prevent flipping of card-title */
-.card-body {
-  backface-visibility: hidden; 
-}
-
 /* Trabalhe Conosco */
 #apply-area {
   height: 500px;
+  display: block;
 }
 
 #apply-area .row, #apply-img, #apply-content {
@@ -155,41 +173,47 @@ h2::after {
 }
 
 #apply-content a {
-  transition-duration: 0.4s;
   background-color: black;
 }
 
 #apply-content a:hover {
-  background-color: #0b7b9e;
-  color: white;
+  background-color: #055f7b;
+  color: #dededa;
   
 }
 
 /* Projeto */
-#project-area{
+
+.project-box {
   margin-bottom: 30px;
 }
 
-#filter-btn-box{
+#filter-btn-box {
   margin-bottom: 50px;
   text-align: center;
 }
 
 #project-area #filter-btn-box .filter-btn {
-    color: #000000;
-    border: 5px solid #000000;
-    background-color: transparent;
-    text-transform: none;
-    margin: 0 15px;
-    min-width: 100px;
-    width: auto;
-    height: 40px;
-    line-height: 40px;
-    padding: 0 20px;
+  color: #444;
+  border: 1px solid #444;
+  background-color: transparent;
+  text-transform: none;
+  margin: 0 15px;
+  min-width: 100px;
+  width: auto;
+  height: 40px;
+  line-height: 40px;
+  padding: 0 20px;
 }
 
-#project-area #filter-btn-box .filter-btn.active, #project-area #filter-btn-box .filter-btn:hover {
-    color: #101010;
-    background-color: #000000;
-    border-color: #000000;
+#portfolio-area #filter-btn-box .filter-btn.active, #project-area #filter-btn-box .filter-btn:hover {
+  color: #fff;
+  background-color: #65daf9;
+  border-color: #65daf9;
 }
+
+/* Fique por dentro */
+#new-area {
+  align-items: center;
+}
+
